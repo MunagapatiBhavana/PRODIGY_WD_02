@@ -1,31 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Danfo&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
 body {
+    background-image: url('https://res.cloudinary.com/db94auffn/image/upload/v1717490853/pngtree-abstract-futuristic-technology-background-with-digital-number-timer-concept-and-countdown-image_1288351_vhrm7e.jpg');
+    background-position: center;
+    background-size: cover;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: #282c34;
+    
     color: white;
-    font-family: Arial, sans-serif;
+    font-family: "Playfair Display", serif;
     margin: 0;
 }
 
 .stopwatch {
     text-align: center;
+    padding-left: 600px;
 }
 
 
 .stopwatch h1 {
     margin-bottom: 100px;
-    font-family: 'Montserrat',sans-serif;
-    font-size: 40px;
-    color: rgb(26, 219, 155);
+    font-family: "Jaini", system-ui;
+    font-size: 60px;
+    color: red;
     font-weight: bold;
+    font-style: italic;
 }
 .my-logo {
    margin-bottom: 50px;
    
-    height: 100px;
-    width: 90px;
+    height: 120px;
+    width: 100px;
 }
 
 #display {
@@ -35,6 +42,8 @@ body {
 
 .controls {
     margin-bottom: 20px;
+   font-family: "Playfair Display", serif;
+   font-size: 30px;
 }
 
 button {
@@ -51,4 +60,7 @@ button {
 
 .lap {
     margin-bottom: 10px;
+   font-family: "Playfair Display", serif;
+   font-size: 30px;
 }
+
